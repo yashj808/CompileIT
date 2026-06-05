@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+google-generativeai
+python-dotenv
+sqlalchemy
+aiosqlite
+pytest
+pytest-asyncio
+httpx
+jsonschema
+rich
+typer
