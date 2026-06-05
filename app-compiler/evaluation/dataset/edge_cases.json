@@ -1,0 +1,72 @@
+[
+  {
+    "id": "e01",
+    "name": "vague_minimal",
+    "prompt": "Build an app",
+    "expected_behavior": "make_assumptions",
+    "type": "vague"
+  },
+  {
+    "id": "e02",
+    "name": "vague_domain",
+    "prompt": "Something like Airbnb but different",
+    "expected_behavior": "interpret_and_proceed",
+    "type": "vague"
+  },
+  {
+    "id": "e03",
+    "name": "conflicting_roles",
+    "prompt": "All users are admins. Admins cannot see the admin panel.",
+    "expected_behavior": "resolve_conflict",
+    "type": "conflicting"
+  },
+  {
+    "id": "e04",
+    "name": "conflicting_payments",
+    "prompt": "Free app with no payments. Premium users pay $10/month.",
+    "expected_behavior": "resolve_conflict",
+    "type": "conflicting"
+  },
+  {
+    "id": "e05",
+    "name": "missing_entity",
+    "prompt": "Build a chat app where messages expire after 24 hours.",
+    "expected_behavior": "infer_entities",
+    "type": "incomplete"
+  },
+  {
+    "id": "e06",
+    "name": "contradictory_scale",
+    "prompt": "Simple app for 1 billion users, no database needed.",
+    "expected_behavior": "override_impossible_constraint",
+    "type": "conflicting"
+  },
+  {
+    "id": "e07",
+    "name": "no_auth_mentioned",
+    "prompt": "Dashboard showing company sales data.",
+    "expected_behavior": "add_auth_by_default",
+    "type": "incomplete"
+  },
+  {
+    "id": "e08",
+    "name": "jargon_heavy",
+    "prompt": "B2B SaaS multi-tenant RBAC platform with SOC2 compliance, SSO, and webhook support.",
+    "expected_behavior": "handle_technical_terms",
+    "type": "incomplete"
+  },
+  {
+    "id": "e09",
+    "name": "extremely_long",
+    "prompt": "Build a platform that has user authentication, profile management, a marketplace where users can buy and sell items, a messaging system, reviews and ratings, payment processing with escrow, dispute resolution, analytics for sellers, SEO-friendly public pages, email notifications, push notifications, admin moderation tools, fraud detection, and a mobile-responsive design.",
+    "expected_behavior": "handle_complexity",
+    "type": "complex"
+  },
+  {
+    "id": "e10",
+    "name": "single_word",
+    "prompt": "Twitter",
+    "expected_behavior": "make_assumptions",
+    "type": "vague"
+  }
+]
