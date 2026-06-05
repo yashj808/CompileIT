@@ -1,0 +1,52 @@
+[
+  {
+    "id": "s01",
+    "name": "crm_full",
+    "prompt": "Build a CRM with login, contacts list, deals pipeline, dashboard with analytics, role-based access for admin/sales/viewer, and Stripe payment for premium plan."
+  },
+  {
+    "id": "s02",
+    "name": "ecommerce",
+    "prompt": "E-commerce platform with product catalog, shopping cart, checkout with Stripe, order tracking, admin panel, and customer accounts."
+  },
+  {
+    "id": "s03",
+    "name": "project_management",
+    "prompt": "Project management tool like Jira. Users can create projects, add tasks, assign to team members, track progress with kanban board, and comment on tasks."
+  },
+  {
+    "id": "s04",
+    "name": "saas_analytics",
+    "prompt": "SaaS analytics dashboard where companies can track user events, view funnels, create custom reports, manage team access, and export data as CSV."
+  },
+  {
+    "id": "s05",
+    "name": "job_board",
+    "prompt": "Job board with employer and candidate accounts. Employers post jobs, candidates apply, employers can shortlist and message candidates. Premium listings for employers."
+  },
+  {
+    "id": "s06",
+    "name": "lms",
+    "prompt": "Learning management system. Instructors create courses with video lessons and quizzes. Students enroll, track progress, earn certificates. Admin manages platform."
+  },
+  {
+    "id": "s07",
+    "name": "healthcare",
+    "prompt": "Doctor appointment booking system. Patients register, search doctors by specialty, book appointments, get reminders. Doctors manage schedules. Admin manages system."
+  },
+  {
+    "id": "s08",
+    "name": "inventory",
+    "prompt": "Inventory management system for warehouses. Track stock levels, add/remove items, set reorder alerts, generate reports, and manage multiple warehouse locations."
+  },
+  {
+    "id": "s09",
+    "name": "social_platform",
+    "prompt": "Social platform where users create profiles, post updates, follow others, like and comment, send direct messages, and see a personalized feed."
+  },
+  {
+    "id": "s10",
+    "name": "event_management",
+    "prompt": "Event management platform. Organizers create events, sell tickets via Stripe, check in attendees. Attendees browse events, buy tickets, see their history."
+  }
+]
